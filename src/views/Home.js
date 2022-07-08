@@ -2,7 +2,7 @@ import React from 'react';
 import { Divider } from '@mui/material';
 // import sections
 import Hero from '../components/sections/Hero';
-import NFTs from '../components/sections/NFTs';
+import UpcomingEvents from '../components/sections/UpcomingEvents';
 
 import LayoutDefault from '../layouts/LayoutDefault'
 
@@ -12,7 +12,7 @@ const Home = () => {
     <LayoutDefault>
       <Hero className="illustration-section-01" />
       <Divider variant="middle"/>
-      <NFTs />
+      <UpcomingEvents />
     </LayoutDefault>
   );
 }

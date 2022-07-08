@@ -69,6 +69,7 @@ html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  /* color: #8364e2 */
 }
 
 body {
@@ -3457,12 +3458,29 @@ img.has-shadow {
     justify-content: center!important;
 }
 
+.card-style {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 65%;
+  border: 2px solid #000;
+  padding: 30px;
+  background-color: white;
+  /* border-radius: 20px; */
+}
+
 @media(max-width: 768px) {
     .btns {
         align-items: center!important;
         justify-content: center;
         text-align: center;
     }
+    .card-style {
+      width: 90%;
+    }
+    
 
     .btn {
   margin-left: 7%;

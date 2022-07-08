@@ -45,7 +45,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright" style={{color: "#9CA9B3"}}>&copy; 2022 OONFTs. All right reserved</div>
+            <div className="footer-copyright" style={{color: "#9CA9B3"}}>&copy; 2022 EventNow. All right reserved</div>
           </div>
         </div>
       </div>

@@ -48,12 +48,12 @@ const Hero = ({
         <div className={innerClasses}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center"}} className="btns">
-              <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>OONFTs</b></p>
+              {/* <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>OONFTs</b></p> */}
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Create, sell or collect digital items.
+              Register for the latest event around you.
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 {/* <ConnectButton /> */}
@@ -63,8 +63,9 @@ const Hero = ({
 
               <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
                 <Image
-                  src={require('./../../assets/images/nft.png')}
-                  alt="Hero" 
+                  src={require('./../../assets/images/event.jpeg')}
+                  alt="Hero"
+                  style={{borderRadius: "20px"}} 
                   />
             </div>
             </Grid>
